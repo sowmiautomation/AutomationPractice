@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Automate Testing Practice Suite">
+         
+  <test name="TestNG">
+	  <!--parameter name="url" value="https://testautomationpractice.blogspot.com/"></parameter>-->	  
+	 <classes>
+       <class name="com.tap.test.testcases.HomePageTest"/>
+     </classes>
+   </test>
+</suite>
